@@ -1,6 +1,6 @@
 <template>
     <div class="container">
-        <nuxt-link :to="'test'">服务端渲染demo</nuxt-link>
+        <nuxt-link :to="'test'">服务端渲染demo1</nuxt-link>
         <div>
             <logo />
             <h1 class="title">
