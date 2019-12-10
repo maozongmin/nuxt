@@ -26,14 +26,14 @@ export default {
             list2: [],
         }
     },
-    created(){
-        this.getList();
-    },
     async asyncData() {
         let res = await axios.get('http://api.yxstudio.cn/demo/getAdmin.php');
         return {
             list: res.data
         }
+    },
+    created(){
+        this.getList();
     },
     methods: {
         async getList(){
