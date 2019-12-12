@@ -1,0 +1,17 @@
+// * {
+//     color: $orange;
+// }
+//主题色
+
+.page-enter-active, .page-leave-active {
+    transition: opacity .2s;
+}
+
+.page-enter, .page-leave-active {
+    opacity: 0;
+}
+$--color-primary: #FD7E28;
+/* 改变 icon 字体路径变量，必需 */
+$--font-path: '~element-ui/lib/theme-chalk/fonts';
+
+@import "~element-ui/packages/theme-chalk/src/index";

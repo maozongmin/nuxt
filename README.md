@@ -1,6 +1,6 @@
-# nuxt-test
+# tgl_qq_content
 
-> My terrific Nuxt.js project
+> TGL QQ ConTent Site
 
 ## Build Setup
 
