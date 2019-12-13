@@ -6,9 +6,9 @@ export default {
   */
  router: {
     middleware: 'auth',
-    // base: '/test/'
+    base: '/test/'
   },
-  rootDir: '/test/',
+//   rootDir: '/test/',
   head: {
     title: process.env.npm_package_name || '',
     meta: [
