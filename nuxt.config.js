@@ -5,7 +5,8 @@ export default {
   ** Headers of the page
   */
  router: {
-    middleware: 'auth'
+    middleware: 'auth',
+    base: '/test/'
   },
   head: {
     title: process.env.npm_package_name || '',
