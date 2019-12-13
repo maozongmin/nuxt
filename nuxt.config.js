@@ -8,7 +8,6 @@ export default {
     middleware: 'auth',
     // base: '/test/'
   },
-  rootDir: '/test/',
   head: {
     title: process.env.npm_package_name || '',
     meta: [
