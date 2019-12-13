@@ -6,7 +6,7 @@ export default {
   */
  router: {
     middleware: 'auth',
-    base: '/test/'
+    // base: '/test/'
   },
   head: {
     title: process.env.npm_package_name || '',
