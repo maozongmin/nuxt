@@ -87,6 +87,7 @@
 // }
 
 // const types = ['index', 'newest', 'dark-horse']
+import axios from "axios"
 export default {
     components: {},
     // validate({ params }) {
