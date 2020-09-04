@@ -16,7 +16,7 @@
     "element-ui": "^2.4.11",
     "nuxt": "^2.0.0",
     "vue-notifications": "^1.0.2",
-    "node-sass": "^4.12.0",
+    "node-sass": "^4.13.1",
     "sass-loader": "^8.0.0"
   },
   "devDependencies": {}
